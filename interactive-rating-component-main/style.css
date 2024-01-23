@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+	background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+	width: 24vw;
+	height: 20vw;
+	border-radius: 2vw;
+	background-color: hsl(213, 19%, 18%);
+	color: white;
+	margin-left: 36vw;
+	margin-top: 10vw;
+	padding: 2.5vw;
+	padding-top: 7vw;
+}
+
+.star-img {
+	margin-top: .75vw;
+	margin-left: .75vw;
+	width: 1.5vw;
+	position: absolute;
+}
+
+.star-bg {
+	background-color: #272e38;
+	position: absolute;
+	border-radius: 2vw;
+	margin-top: -4vw;
+	margin-left: 0vw;
+	width: 3vw;
+	height: 3vw;
+}
+
+.btn {
+	background-color: #272e38;
+	color: white;
+	border: none;
+	margin-top: 3vw;
+	margin-left: .9vw;
+	border-radius: 2vw;
+	width: 3.5vw;
+	height: 3.5vw;
+	font-size: 1.2vw;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: hsl(25, 97%, 53%);
+}
+
+.btn:focus {
+	background-color: hsl(216, 12%, 54%);
+}
+
+.submit-btn {
+	border-radius: 2vw;
+	font-size: 1.2vw;
+	font-weight: 700;
+	background-color: hsl(25, 97%, 53%);
+	color: white;
+	border: none;
+	width: 22vw;
+	height: 3vw;
+	margin-left: 1vw;
+	margin-top: 2vw;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	background-color: white;
+	color: hsl(25, 97%, 53%);
+}
+
+.thank-you-container {
+	display: none;
+	width: 24vw;
+	height: 20vw;
+	border-radius: 2vw;
+	background-color: hsl(213, 19%, 18%);
+	color: white;
+	margin-left: 36vw;
+	margin-top: 10vw;
+	padding: 2.5vw;
+	padding-top: 7vw;
+	text-align: center;
+}
+
+.ty-img {
+	width: 10vw;
+	margin-left: -5vw;
+	margin-top: -3vw;
+	position: absolute;
+}
+
+.show {display: block;}
+.hide {display: none}

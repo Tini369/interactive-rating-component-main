@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+      color: white;
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <div id="c1" class="container"> 
+    <div class="star-bg">
+      <img src="./images/icon-star.svg" class="star-img">
+    </div>
+    <h1 style="padding-top: 1vw;">How did we do?</h1>
+
+    <p style="padding-top: 1vw;">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+    <div class="buttons">
+      <button id="btn" class="btn">1</button> 
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+    </div>
+    <button class="submit-btn" onclick="myFunction()">Submit</button>
+</div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div id="c2" class="thank-you-container">
+    <img src="./images/illustration-thank-you.svg" class="ty-img">
+    <p style="margin-top: 6vw; background-color: #272e38; color: hsl(25, 97%, 53%); width: 14vw; height: 1.7vw; border-radius: 2vw;
+    margin-left: 4.5vw; padding-top: .5vw;">You selected <span id="selected"></span> out of 5</p>
+
+    <h1 style="margin-top: 3vw;">Thank you!</h1>
+
+    <p style="margin-top: 1vw; color: hsl(216, 12%, 54%);">We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+</div>
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tini</a>.
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
